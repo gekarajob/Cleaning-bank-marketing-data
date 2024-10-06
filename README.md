@@ -68,30 +68,5 @@ After completing the cleaning process, I generated the following three CSV files
 - `campaign.csv`: Contains campaign-related information such as the number of contacts, campaign outcomes, and previous campaign details.
 - `economics.csv`: Contains economic indicators relevant to the client, such as the Consumer Price Index and Euribor rates.
 
-## Instructions
-
-### Prerequisites
-Make sure you have the following installed:
-- Python 3.x
-- Pandas
-- NumPy
-
-You can install the required packages by running:
-```bash
-pip install pandas numpy
-```
-
-### Running the Project
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   ```
-2. **Run the data cleaning script** to process the raw data and generate the three output CSV files:
-   ```bash
-   python data_cleaning_script.py
-   ```
-3. The cleaned CSV files (`client.csv`, `campaign.csv`, and `economics.csv`) will be saved in the output directory.
-
 ## Conclusion
 With the data cleaned and split, the bank can now import this structured data into a PostgreSQL database. This setup will not only store the current campaign's data but also make it easier to load data from future campaigns.
